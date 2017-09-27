@@ -1,6 +1,26 @@
 RAPT Pygame Codecakes Example
 =============================
 
+## Who RAPT Pygame Development is For
+
+I am a parent teaching my middle school child to program in Python. My recommendation is to
+ only use RAPT Pygame if you feel comfortable with the characteristics below.
+
+- You like Python or at least are attracted to the structure
+- You don't want to dive into JavaScript games right now due to the funkiness with JavaScript syntax
+- You're using the application for personal use or just for learning purposes
+
+RAPT Pygame takes
+a Pygame program and allows it to run on Android phones. If you're writing a commercial game
+or an application for work, you should use something with more support. For example, you should use
+[Kivy](https://kivy.org/). The main problem with Kivy for teaching is that it's harder to learn for children.
+
+Another mobile game framework is [Phaser](http://phaser.io/). This is JavaScript framework that is 
+fairly easy to use, but not as easy as Pygame.
+
+
+
+
 This example was modified from [rapt-pygame-example](https://github.com/renpytom/rapt-pygame-example) by 
 [renpytom](https://github.com/renpytom).
 
