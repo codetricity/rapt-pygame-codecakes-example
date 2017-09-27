@@ -6,8 +6,16 @@ This example was modified from [rapt-pygame-example](https://github.com/renpytom
 
 The game code was written by a 12 year old girl that is just starting to learn Python.
 
-- does not save state. to keep things simple
+## Screenshot on Moto G 3rd Gen
 
+![](doc/img/screenshot-motog.png)
+
+- 720 x 1280 screen resolution
+- Android 6.0
+
+## Notes
+
+- does not save state. Deleted code to keep things simple
 - deleted clock as I suspect it was causing problems
 - build was done on Ubuntu 17.04
 
@@ -36,7 +44,11 @@ You can then install it on an Android emulator or a real phone.
     /home/craig/Development/rapt-python/ra.... 13.1 MB/s (23181220 bytes in 1.683s)
         pkg: /data/local/tmp/Guffy-1.0-release.apk
 
+### Screenshot of Install on Emulator
+
 ![](doc/img/android-avd.png)
+
+- using Intel HAXM (x86)
 
 ### Debug
 
