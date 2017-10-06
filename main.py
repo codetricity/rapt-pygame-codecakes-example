@@ -206,13 +206,13 @@ while gameon:
         if direction == "down":
             pufferrect.centery = pufferrect.centery + speed
 
-        if pufferrect.right > 800:
+        if pufferrect.right > SCREENWIDTH:
             direction = "left"
         if pufferrect.left < 0:
             direction = "right"
         if pufferrect.top < 0:
             direction = "down"
-        if pufferrect.bottom > 600:
+        if pufferrect.bottom > SCREENHEIGHT:
             direction = "up"
 
     clock.tick(FPS)
