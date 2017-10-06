@@ -36,7 +36,6 @@ The game code was written by a 12 year old girl that is just starting to learn P
 ## Notes
 
 - does not save state. Deleted code to keep things simple
-- deleted clock as I suspect it was causing problems
 - build was done on Ubuntu 17.04
 
 ## Tips For Developing with RAPT Pygame
@@ -164,3 +163,43 @@ This can be done with the command::
 
 This must be done each time the game changes, to ensure the latest version is
 on the device.
+
+---
+
+## Modules Implemented
+
+* pygame_sdl2.color
+* pygame_sdl2.display
+* pygame_sdl2.draw
+* pygame_sdl2.event
+* pygame_sdl2.font
+* pygame_sdl2.gfxdraw
+* pygame_sdl2.image
+* pygame_sdl2.joystick
+* pygame_sdl2.key
+* pygame_sdl2.locals
+* pygame_sdl2.mixer (including mixer.music)
+* pygame_sdl2.mouse
+* pygame_sdl2.scrap
+* pygame_sdl2.sprite
+* pygame_sdl2.surface
+* pygame_sdl2.sysfont
+* pygame_sdl2.time
+* pygame_sdl2.transform
+* pygame_sdl2.version
+
+Experimental new modules include:
+
+* pygame_sdl2.render
+* pygame_sdl2.controller
+
+
+Documentation
+-------------
+
+pygame-sdl documentation can be found at:
+
+    http://pygame-sdl2.readthedocs.org/
+
+
+

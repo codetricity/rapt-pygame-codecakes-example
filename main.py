@@ -8,11 +8,12 @@ except ImportError:
 import pygame
 
 pygame.init()
+pygame.mixer.init()
 
 testmode = False
 
-# FPS = 100
-# clock = pygame.time.Clock()
+FPS = 60
+clock = pygame.time.Clock()
 SCREENWIDTH = 1280
 SCREENHEIGHT = 720
 size = (SCREENWIDTH, SCREENHEIGHT)
@@ -76,12 +77,17 @@ playagainrect = playagainsurface.get_rect(left=350, top=375)
 
 quitsurface = fonts.render("Quit", False, white)
 quitrect = quitsurface.get_rect(left=370, top=425)
+
+jungleSound = pygame.mixer.Sound("snd/jungle.wav")
+
 speed = 4
 lspeed = 1
 sspeed = 2
 direction = "up"
 level = 1
 gameon = True
+
+jungleSound.play(-1)
 
 while gameon:
     for event in pygame.event.get():
@@ -209,6 +215,7 @@ while gameon:
         if pufferrect.bottom > 600:
             direction = "up"
 
+    clock.tick(FPS)
     pygame.display.update()
 
 
